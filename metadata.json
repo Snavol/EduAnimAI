@@ -1,0 +1,5 @@
+{
+  "name": "EduAnim - Text to Video Generator",
+  "description": "A text-driven educational animation platform that converts concepts into structured, playable scenes using GenAI.",
+  "requestFramePermissions": []
+}
