@@ -1,0 +1,215 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 6 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1672 >>
+stream
+BT
+/F1 22 Tf
+50 760 Td
+(EduAnimAI Project Overview) Tj
+ET
+BT
+/F2 11 Tf
+50 730 Td
+(Project summary: EduAnimAI is an AI-powered educational animation generator that converts text into multi-scene animated videos.) Tj
+ET
+BT
+/F2 11 Tf
+50 715 Td
+(It supports math, science, history, and other topics by generating diagrams, characters, maps, objects, and step-by-step visuals.) Tj
+ET
+BT
+/F2 11 Tf
+50 700 Td
+(Repository: Snavol/EduAnimAI) Tj
+ET
+BT
+/F1 14 Tf
+50 670 Td
+(1. Tech stack) Tj
+ET
+BT
+/F2 11 Tf
+50 650 Td
+(Language: TypeScript, HTML) Tj
+ET
+BT
+/F2 11 Tf
+50 636 Td
+(Frontend: React 19 with Vite) Tj
+ET
+BT
+/F2 11 Tf
+50 622 Td
+(AI: Google Gemini via @google/genai, using gemini-2.5-flash) Tj
+ET
+BT
+/F2 11 Tf
+50 608 Td
+(Animation: Framer Motion for movement, transitions, zoom, and scene playback) Tj
+ET
+BT
+/F2 11 Tf
+50 594 Td
+(Icons/UI: lucide-react and inline JSX utility styling) Tj
+ET
+BT
+/F1 14 Tf
+50 560 Td
+(2. How the app works) Tj
+ET
+BT
+/F2 11 Tf
+50 540 Td
+(App.tsx is the main UI. It stores the prompt, triggers Gemini generation, and renders the response with an interactive playback screen.) Tj
+ET
+BT
+/F2 11 Tf
+50 526 Td
+(When a user submits a topic, handleGenerate calls generateAnimationScript from services/geminiService.ts.) Tj
+ET
+BT
+/F2 11 Tf
+50 512 Td
+(The service sends a prompt to Gemini with a system instruction that defines the output schema for scenes, narration, camera, and visual elements.) Tj
+ET
+BT
+/F2 11 Tf
+50 498 Td
+(Each scene includes a narrative, background style, duration, camera settings, and visual elements such as characters, shapes, text, arrows, and map markers.) Tj
+ET
+BT
+/F1 14 Tf
+50 468 Td
+(3. Data model) Tj
+ET
+BT
+/F2 11 Tf
+50 448 Td
+(types.ts defines the core structures: VisualElement, Scene, AnimationScript, and enums like ElementType and AnimationType.) Tj
+ET
+BT
+/F2 11 Tf
+50 434 Td
+(Examples include character, shape, text, map-marker, arrow, fade-in, slide-in, scale-up, and camera zoom/pan controls.) Tj
+ET
+BT
+/F1 14 Tf
+50 404 Td
+(4. Rendering and animation) Tj
+ET
+BT
+/F2 11 Tf
+50 384 Td
+(components/AnimationPlayer.tsx renders scenes in a video-like viewport and handles progress timing, timeline navigation, and pause/resume controls.) Tj
+ET
+BT
+/F2 11 Tf
+50 370 Td
+(Background styles include default, map, grid, space, and paper, and elements can move, fly in, float, and pulse.) Tj
+ET
+BT
+/F2 11 Tf
+50 356 Td
+(The player also displays subtitles, camera motion, and scene badges to mimic an educational video preview experience.) Tj
+ET
+BT
+/F1 14 Tf
+50 326 Td
+(5. Project structure) Tj
+ET
+BT
+/F2 11 Tf
+50 306 Td
+(App.tsx: UI and flow orchestration) Tj
+ET
+BT
+/F2 11 Tf
+50 292 Td
+(components/AnimationPlayer.tsx: playback renderer) Tj
+ET
+BT
+/F2 11 Tf
+50 278 Td
+(services/geminiService.ts: Gemini API integration and JSON schema enforcement) Tj
+ET
+BT
+/F2 11 Tf
+50 264 Td
+(types.ts: data contracts) Tj
+ET
+BT
+/F2 11 Tf
+50 250 Td
+(vite.config.ts: dev server and environment variable setup) Tj
+ET
+BT
+/F1 14 Tf
+50 220 Td
+(6. Running locally) Tj
+ET
+BT
+/F2 11 Tf
+50 200 Td
+(Requirements: Node.js, a Gemini API key, and npm dependencies.) Tj
+ET
+BT
+/F2 11 Tf
+50 186 Td
+(Install: npm install) Tj
+ET
+BT
+/F2 11 Tf
+50 172 Td
+(Set GEMINI_API_KEY in .env.local) Tj
+ET
+BT
+/F2 11 Tf
+50 158 Td
+(Start: npm run dev; Vite serves the app on port 3000 by default) Tj
+ET
+BT
+/F1 14 Tf
+50 128 Td
+(7. Overall assessment) Tj
+ET
+BT
+/F2 11 Tf
+50 108 Td
+(This project is a compact, design-first AI app that turns educational prompts into visually structured, animated lesson scripts.) Tj
+ET
+BT
+/F2 11 Tf
+50 94 Td
+(It is best described as a frontend-driven AI storyboard and animation generator for educational content creation.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000010 00000 n 
+0000000064 00000 n 
+0000000132 00000 n 
+0000000275 00000 n 
+0000001200 00000 n 
+0000002885 00000 n 
+trailer
+<< /Root 1 0 R /Size 7 >>
+startxref
+2940
+%%EOF
